@@ -1,0 +1,53 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+dist/
+build/
+coverage/
+.tmp/
+.cache/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Prisma
+# Ignore custom Prisma client output and engines
+generated/
+.prisma/
+.prisma-studio/
+
+# IDE/editors
+.vscode/
+.idea/
+
+# Misc
+*.swp
+*.swo
+
+# Yarn (Berry)
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+node_modules
+# Keep environment variables out of version control
+.env
+
+/generated/prisma
+
+/generated/prisma
